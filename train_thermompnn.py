@@ -30,6 +30,9 @@ class TransferModelPL(pl.LightningModule):
     """Class managing training loop with pytorch lightning"""
     def __init__(self, cfg):
         super().__init__()
+
+        cfg.platform.thermompnn_dir = '/content/ThermoMPNN'
+        # model = get_protein_mpnn(cfg)
         self.model = TransferModel(cfg)
 
         self.learn_rate = cfg.training.learn_rate
