@@ -5,9 +5,9 @@ platform:
   embeddings_dir: "content/ThermoMPNN/embeddings"
 
 data_loc:
-        megascale_csv: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/mega_scale/Processed_K50_dG_datasets/Tsuboyama2023_Dataset2_Dataset3_20230416.csv"
-        megascale_splits: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/mega_scale/mega_splits.pkl"
-        megascale_pdbs: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/mega_scale/AlphaFold_model_PDBs/"
+        megascale_csv: "mega_scale/Tsuboyama2023_Dataset2_Dataset3_20230416.csv"
+        megascale_splits: "dataset_splits/mega_splits.pkl"
+        megascale_pdbs: "mega_scale/AlphaFold_model_PDBs"
 
         fireprot_csv: "fireprot_upload/csvs/4_fireprotDB_bestpH.csv"
         fireprot_splits: "fireprot_upload/csvs/fireprot_splits.pkl"
