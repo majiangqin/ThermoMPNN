@@ -8,6 +8,6 @@ data_loc:
         megascale_splits: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/mega_scale/mega_splits.pkl"
         megascale_pdbs: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/mega_scale/AlphaFold_model_PDBs/"
 
-        fireprot_csv: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/fireprot/4_fireprotDB_bestpH.csv"
-        fireprot_splits: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/fireprot/fireprot_splits.pkl"
-        fireprot_pdbs: "/nas/longleaf/home/dieckhau/protein-stability/enzyme-stability/data/fireprot/pdbs/monomers/"
+        fireprot_csv: "fireprot_upload/csvs/4_fireprotDB_bestpH.csv"
+        fireprot_splits: "fireprot_upload/csvs/fireprot_splits.pkl"
+        fireprot_pdbs: "fireprot_upload/pdbs"
