@@ -31,7 +31,7 @@ class TransferModelPL(pl.LightningModule):
     def __init__(self, cfg):
         super().__init__()
 
-        cfg.platform.thermompnn_dir = '/content/ThermoMPNN'
+        # cfg.platform.thermompnn_dir = '/content/ThermoMPNN'
         # model = get_protein_mpnn(cfg)
         self.model = TransferModel(cfg)
 
